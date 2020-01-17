@@ -1,15 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import StatePractice from "./StatePractice";
+//import StatePractice from "./StatePractice";
+import cards from "./Cards";
+import CardList from "./CardList";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <StatePractice />
-      </header>
+      <div className="row">
+        <CardList cards={cards} />
+      </div>
     </div>
   );
 }

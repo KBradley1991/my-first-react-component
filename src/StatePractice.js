@@ -36,6 +36,7 @@ class StatePractice extends Component {
       }
     );
   }
+
   render() {
     return (
       <div>
